@@ -1,0 +1,117 @@
+body{
+	
+	margin-left: 0 auto;
+	
+}
+
+img {
+  border-radius: 10%;
+  max-width: 30%;
+  height:100px 
+  width:200;
+}
+
+.name-and-picture{
+	align-items:  left;
+
+}
+
+
+#container{
+	width: 650px;
+	height: 1500px;
+	background-color: yellow;
+	margin-left: 0 auto;
+	margin: 0 auto;
+	align-items: center;;
+	text-align: center;
+}
+
+#dotted{
+	border: 2px dotted;
+	border-color: navy;
+	align-items: center;
+}
+
+#pic-div{
+	font-size: 30px;
+	height: 200px;
+	width: 300px;
+	float: left;
+	align-items: left;
+}
+
+
+#yeild{
+	text-align: right;
+
+}
+
+.buttons {
+	font-family : inherit;
+	}
+
+#discription-box{
+
+  width: 55%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.boxes{
+
+  width: 10%;
+  height: 5px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+#recipe-name
+{ width: 30%;
+  height: 10px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  font-size: 25px;
+}
+
+#recipe-name-label{
+
+	font-size: 25px;
+
+}
+
+#categories{
+  width: 20%;
+  height: 5px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  align-items: center;
+}
+
+
+.ordered-list{
+
+text-align: left;
+}
+
+.rdered-list-label{
+	font-size: 25px;
+	text-align: left;
+}

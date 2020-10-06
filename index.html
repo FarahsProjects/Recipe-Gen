@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Recipes	</title>
+      <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+         crossorigin="anonymous"></script>
+      <style>
+         body {
+         font-family: 'Sofia';font-size: 15px;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="container">
+         <div class="pic-div"> <img class='pic-div' src="joyz.jpg"> </div>
+         <div class=" name-div"> <label class='name-and-picture' id="recipe-name-label">Recipe Name:</label>
+            <input class='name-and-picture' id="recipe-name" type="text"> 
+         </div>
+         <br>
+         <label  id="yeild-label"> Yeild:</label>
+         <input  class="boxes" id="yeild" type="text"> 
+         <label  d="author-label"> Author:</label>
+         <input  class="boxes" id="author">
+         <label  id="prep-time-label"> Prep-Time:</label>
+         <input  class="boxes" id="prep-time"> 
+         <label  id="category-label"> Category:</label>
+         <select class="boxes"id="categories" name="category">
+            <option ></option>
+            <option >Appetizers</option>
+            <option >Beverages</option>
+            <option >Soups</option>
+            <option >Salads</option>
+            <option >Main Dishes</option>
+            <option >Breads</option>
+            <option >Desserts</option>
+            <option >Miscellaneous</option>
+         </select>
+         <br> <br><br>
+         <label> Discription: </label> 
+         <textarea id="discription-box" rows="2" cols="50"> </textarea>
+         <br><br><br>
+         <button class="buttons" id="save"> Save First Section </button>
+         <br><br><br>
+         <div class="ordered-list-div">
+         	<label class="ordered-list-label"> ** INGREDIENTS: </label> <input  class="boxes" id="add-ingredients-input" type="text"> 
+         	<button id="add-ingredients"> Add </button>
+            <ol class="ordered-list">
+             
+            </ol>
+         </div>
+         <div class="ordered-list-div">
+            <label class="ordered-list-label"> ** INSTRUCTIONS: </label> <input  class="boxes" id="yeild" type="text"> 
+         	<button id="add-instructions"> Add </button>
+            <ol class="ordered-list">
+               <li> </li>
+               <li> </li>
+               <li> </li>
+               <li> </li>
+               <li> </li>
+               <li> </li>
+               <li> </li>
+               <li> </li>
+               <li> </li>
+               <li> </li>
+            </ol>
+         </div>
+         <div class="ordered-list-div">
+            <label class="ordered-list-label"> ** NOTES: </label> <input  class="boxes" id="yeild" type="text"> 
+         	<button id="add-notes"> Add </button>
+            <ul class="ordered-list">
+               <li> </li>
+               <li> </li>
+               <li> </li>
+            </ul>
+         </div>
+         <button class="buttons" id="save"> Save Second Section </button>
+
+      </div>
+      <script type="text/javascript" src="script.js"></script>
+   </body>
+</html>
