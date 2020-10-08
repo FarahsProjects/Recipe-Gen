@@ -1,6 +1,7 @@
 body{
 	
 	background-image: url(pic2.jpg);
+	margin: 0 auto;
 	
 }
 
@@ -20,7 +21,7 @@ img {
 #container{
 	width: 768px;
 	height: 600px auto;
-	background-color: #ffff33;
+	background-color:  #ffff80;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -47,7 +48,7 @@ img {
   border-bottom-style: groove;
   border-color:  #000066;
   border-radius: 1px;
-  background-color: #ffff00;
+  background-color: #ffff80;
   resize: none;
   font-family: inherit;
 }
@@ -66,7 +67,7 @@ img {
   border-color:  #000066;
 
   border-radius: 1px;
-  background-color: #ffff00;
+  background-color: #ffff80;
   resize: none;
   font-family: inherit;
 }
@@ -78,7 +79,7 @@ img {
   box-sizing: border-box;
   border: 2px solid white;
   border-radius: 4px;
-  background-color: #ffff00;
+  background-color: #ffff80;
   resize: none;
   font-size: 25px;
   font-family: inherit;
@@ -99,7 +100,7 @@ img {
 	box-sizing: border-box;
     border: 2px solid white;
     border-radius: 4px;
-    background-color: #ffff00;
+    background-color: #ffff80;
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
@@ -116,7 +117,7 @@ img {
 	box-sizing: border-box;
     border: 2px solid white;
     border-radius: 4px;
-    background-color: #ffff00;
+    background-color: #ffff80;
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
@@ -134,7 +135,7 @@ img {
   box-sizing: border-box;
   border: 2px solid white;
   border-radius: 4px;
-  background-color: #ffff00;
+  background-color: #ffff80;
   resize: none;
   margin-bottom: 0px;
   
@@ -176,7 +177,7 @@ img {
   border-bottom-style: groove;
   border-color:  #000066;
   border-radius: 1px;
-  background-color: #ffff00;
+  background-color: #ffff80;
   resize: none;
   margin-bottom: 0px;
   font-family: inherit;
