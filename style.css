@@ -20,7 +20,7 @@ img {
 #container{
 	width: 768px;
 	height: 600px auto;
-	background-color: yellow;
+	background-color: #ffff33;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -41,8 +41,12 @@ img {
   height: 50px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-color:  #000066;
+  border-radius: 1px;
   background-color: #ffff00;
   resize: none;
   font-family: inherit;
@@ -54,8 +58,14 @@ img {
   height: 5px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-color:  #000066;
+
+  border-radius: 1px;
   background-color: #ffff00;
   resize: none;
   font-family: inherit;
@@ -66,7 +76,7 @@ img {
   height: 10px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 2px solid white;
   border-radius: 4px;
   background-color: #ffff00;
   resize: none;
@@ -79,6 +89,7 @@ img {
 	font-size: 30px;
 	font-family: inherit;
 
+
 }
 
 #recipe-name-input{
@@ -86,9 +97,15 @@ img {
 	font-size: 20px;
 	font-family: inherit;
 	box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid white;
     border-radius: 4px;
     background-color: #ffff00;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #000066;
+    border-radius: 1px;
     
 
 }
@@ -97,9 +114,15 @@ img {
 	font-size: 15px;
 	font-family: inherit;
 	box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid white;
     border-radius: 4px;
     background-color: #ffff00;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color:  #000066;
+    border-radius: 1px;
    
 
 }
@@ -109,7 +132,7 @@ img {
   height: 5px;
   padding: 12px 20px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 2px solid white;
   border-radius: 4px;
   background-color: #ffff00;
   resize: none;
@@ -121,7 +144,7 @@ img {
 .ordered-list-label{
 
 	font-size: 25px;
-	text-align: left;
+	text-indent: left;
 }
 
 .buttons{
@@ -147,8 +170,12 @@ img {
   width: 20%;
   height: 30px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-color:  #000066;
+  border-radius: 1px;
   background-color: #ffff00;
   resize: none;
   margin-bottom: 0px;
@@ -166,3 +193,8 @@ img {
 	margin-left:auto;
 
 }*/
+
+
+#category-label,#author-label{
+	margin-left: 40px;
+}
