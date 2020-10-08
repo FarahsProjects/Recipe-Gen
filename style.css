@@ -1,6 +1,6 @@
 body{
 	
-	margin-left: 0 auto;
+	background-image: url(pic2.jpg);
 	
 }
 
@@ -18,20 +18,13 @@ img {
 
 
 #container{
-	width: 650px;
-	height: 1500px;
+	width: 768px;
+	height: 600px auto;
 	background-color: yellow;
-	margin-left: 0 auto;
 	margin: 0 auto;
-	align-items: center;;
 	text-align: center;
 }
 
-#dotted{
-	border: 2px dotted;
-	border-color: navy;
-	align-items: center;
-}
 
 #pic-div{
 	font-size: 30px;
@@ -42,15 +35,6 @@ img {
 }
 
 
-#yeild{
-	text-align: right;
-
-}
-
-.buttons {
-	font-family : inherit;
-	}
-
 #discription-box{
 
   width: 55%;
@@ -59,20 +43,22 @@ img {
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: #ffff00;
   resize: none;
+  font-family: inherit;
 }
 
 .boxes{
 
-  width: 10%;
+  width: 30%;
   height: 5px;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: #ffff00;
   resize: none;
+  font-family: inherit;
 }
 
 #recipe-name
@@ -82,14 +68,39 @@ img {
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: #ffff00;
   resize: none;
   font-size: 25px;
+  font-family: inherit;
 }
 
 #recipe-name-label{
 
-	font-size: 25px;
+	font-size: 30px;
+	font-family: inherit;
+
+}
+
+#recipe-name-input{
+
+	font-size: 20px;
+	font-family: inherit;
+	box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffff00;
+    
+
+}
+
+#date{
+	font-size: 15px;
+	font-family: inherit;
+	box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffff00;
+   
 
 }
 
@@ -100,18 +111,58 @@ img {
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: #ffff00;
   resize: none;
-  align-items: center;
+  margin-bottom: 0px;
+  
 }
 
 
-.ordered-list{
+.ordered-list-label{
 
-text-align: left;
-}
-
-.rdered-list-label{
 	font-size: 25px;
 	text-align: left;
 }
+
+.buttons{
+	background-color: white;
+	border-color: white;
+	font-family: inherit;
+}
+
+#add-ingredients-input, #add-notes-input ,#add-instructions-input {
+  width: 30%;
+ 
+
+
+}
+
+
+#ingr-list, #inst-list, #notes-list {
+
+	text-align: left;
+}
+
+#select-cat{
+  width: 20%;
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffff00;
+  resize: none;
+  margin-bottom: 0px;
+  font-family: inherit;
+
+}
+
+.ordered-list-di{
+	text-align: left;
+
+}
+
+/*
+#save1,#save2,#print{
+	margin-left:auto;
+
+}*/
