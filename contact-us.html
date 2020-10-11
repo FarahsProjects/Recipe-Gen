@@ -23,12 +23,17 @@
   <title> About Us </title>
 </head>
 <body>
+  <style>
+         body {
+         font-family: 'Amarante';font-size: 15px;
+         }
+      </style>
 	<div> 
 
 	</div>
 	<div class="container">
   <h2> Suggestion Box</h2>
-  <p> Joyz kitchen is a website specialiazed in cooking and generating recipes from all different cusines around the world, our mission is to deliver the best recipes along with the best user experience through our website, please reach to us for more information, and feel free to send us any suggestions through the suggestion comment box.</p>
+  <p>Please reach to us for more information, and feel free to send us any suggestions through the suggestion comment box.</p>
   <form action="/action_page.php">
     <div class="form-group">
       <label for="comment">Suggest:</label>
@@ -40,7 +45,13 @@
 
 <div id="piechart"></div>
 
+
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<style>
+         body {
+         font-family: 'Amarante';font-size: 15px;
+         }
+      </style>
 
 <script type="text/javascript">
 // Load google charts
@@ -69,6 +80,10 @@ function drawChart() {
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
   chart.draw(data, options);
 }
+
+
+
+
 </script>
 
 
