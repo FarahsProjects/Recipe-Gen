@@ -1,8 +1,8 @@
 body{
-	
-	background-image: url(pic2.jpg);
-	margin: 0 auto;
-	
+  
+  background-image: url(pic2.jpg);
+  margin: 0 auto;
+  
 }
 
 img {
@@ -13,26 +13,26 @@ img {
 }
 
 .name-and-picture{
-	align-items:  left;
+  align-items:  left;
 
 }
 
 
 #container{
-	width: 768px;
-	height: 600px auto;
-	background-color:  #ffff80;
-	margin: 0 auto;
-	text-align: center;
+  width: 768px;
+  height: 600px auto;
+  background-color:  #ffff80;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
 #pic-div{
-	font-size: 30px;
-	height: 200px;
-	width: 300px;
-	float: left;
-	align-items: left;
+  font-size: 30px;
+  height: 200px;
+  width: 300px;
+  float: left;
+  align-items: left;
 }
 
 
@@ -87,17 +87,17 @@ img {
 
 #recipe-name-label{
 
-	font-size: 30px;
-	font-family: inherit;
+  font-size: 30px;
+  font-family: inherit;
 
 
 }
 
 #recipe-name-input{
 
-	font-size: 20px;
-	font-family: inherit;
-	box-sizing: border-box;
+  font-size: 20px;
+  font-family: inherit;
+  box-sizing: border-box;
     border: 2px solid white;
     border-radius: 4px;
     background-color: #ffff80;
@@ -112,9 +112,9 @@ img {
 }
 
 #date{
-	font-size: 15px;
-	font-family: inherit;
-	box-sizing: border-box;
+  font-size: 15px;
+  font-family: inherit;
+  box-sizing: border-box;
     border: 2px solid white;
     border-radius: 4px;
     background-color: #ffff80;
@@ -144,14 +144,14 @@ img {
 
 .ordered-list-label{
 
-	font-size: 25px;
-	text-indent: left;
+  font-size: 25px;
+  text-indent: left;
 }
 
 .buttons{
-	background-color: white;
-	border-color: white;
-	font-family: inherit;
+  background-color: white;
+  border-color: white;
+  font-family: inherit;
 }
 
 #add-ingredients-input, #add-notes-input ,#add-instructions-input {
@@ -164,7 +164,7 @@ img {
 
 #ingr-list, #inst-list, #notes-list {
 
-	text-align: left;
+  text-align: left;
 }
 
 #select-cat{
@@ -185,17 +185,17 @@ img {
 }
 
 .ordered-list-di{
-	text-align: left;
+  text-align: left;
 
 }
 
 /*
 #save1,#save2,#print{
-	margin-left:auto;
+  margin-left:auto;
 
 }*/
 
 
 #category-label,#author-label{
-	margin-left: 40px;
+  margin-left: 40px;
 }
