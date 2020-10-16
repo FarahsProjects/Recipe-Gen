@@ -24,22 +24,6 @@ $('#save1').click(function(){
 })
 
 
-
-// $('#save2').click(function(){
-//    var newRecipeInfo ={
-//     ingredients:"",
-//     instructions:"" , 
-//     notes:"", 
-//    }
-
-//    newRecipeInfo.ingredients=$("##add-ingredients-input").val();
-//    newRecipeInfo.instructions=$("#add-instructions-input").val();
-//    newRecipeInfo.notes=$("#add-notes-input").val();
-
-//    console.log(newRecipeInfo);
-
-// })
-
 //Edit button
 
 // var editButton= $("<button> Edit </button>")
