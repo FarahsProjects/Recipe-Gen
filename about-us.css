@@ -1,4 +1,9 @@
-p {
+
+#story{
 	text-align: center;
-	font-family: inherit;
+	height: 40px;
+	width: 500px;
+	margin:0 auto;
+	background-color: #ffff80; 
 }
+

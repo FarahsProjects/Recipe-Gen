@@ -3,7 +3,7 @@
 <head>
 	
 
-	<link rel="stylesheet" type="text/css" href="about-us.css">
+	<link rel="stylesheet" type="text/css" href="contact-us.css">
 	<!-- Font -->
 	 <link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
 	<title> Home Page </title>
@@ -34,59 +34,29 @@
 	<div class="container">
   <h2> Suggestion Box</h2>
   <p>Please reach to us for more information, and feel free to send us any suggestions through the suggestion comment box.</p>
-  <form action="/action_page.php">
+  <form>
     <div class="form-group">
       <label for="comment">Suggest:</label>
-      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+      <input type="text" id="comment" class="form-control" rows="6">
+
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>
 
-<div id="piechart"></div>
+<br>
+<div class="container">
+<br>
+Call us at : +962797423882
+<br>
+Email us Farah-a-i@hotmail.com
+<br>
+Location : Amman, Al bayader- Abusous
 
+  
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-<style>
-         body {
-         font-family: 'Amarante';font-size: 15px;
-         }
-      </style>
+</div>
 
-<script type="text/javascript">
-// Load google charts
-google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawChart);
-
-// Draw the chart and set the chart values
-function drawChart() {
-  var data = google.visualization.arrayToDataTable([
-
-  ['Recipes Category', 'Percent'],
-  ['Appetizers', 20],
-  ['Beverages', 10],
-  ['Soups', 5],
-  ['Salads',15 ],
-  ['Main Dishes', 30],
-  ['Breads', 5],
-  ['Desserts', 10],
-  ['Miscellaneous', 5]
-]);
-
-  // Optional; add a title and set the width and height of the chart
-  var options = {'title':' Joyz Kitchen Recipes by Category', 'width':750, 'height':600};
-
-  // Display the chart inside the <div> element with id="piechart"
-  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-  chart.draw(data, options);
-}
-
-
-
-
-</script>
-
-
-<script type="text/javascript" src="about-us.js"></script>
+<script type="text/javascript" src="contact-us.js"></script>
 </body>
 </html>

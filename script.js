@@ -24,13 +24,6 @@ $('#save1').click(function(){
 })
 
 
-//Edit button
-
-// var editButton= $("<button> Edit </button>")
-//   editButton.attr('id',"edit")
-//   $("<li>"+ editButton +"</li>").appendTo("#ingr-list")
-
-
 //Add section
 
 //add ingredients
